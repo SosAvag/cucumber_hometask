@@ -1,0 +1,454 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Check warning pop-up without logging in",
+    "line": 1,
+    "id": "check-warning-pop-up-without-logging-in",
+    "tags": [],
+    "uri": "Features\\chechPopUp.feature",
+    "elements": [
+      {
+        "id": "check-warning-pop-up-without-logging-in;i-should-change-the-theme-to-dark-and-sign-in",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "I should change the theme to dark and sign in",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have opened web browser and maximized it",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2625000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I should change the theme to dark",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 817000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I should sign in",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:41"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 11714000000,
+              "error_message": "TimeoutError: Wait timed out after 10009ms\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2201:17\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: <anonymous wait>\n    at scheduleWait (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2188:20)\n    at ControlFlow.wait (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2517:12)\n    at Driver.wait (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\webdriver.js:934:29)\n    at run (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\protractor\\built\\browser.js:58:33)\n    at ProtractorBrowser.to.<computed> [as wait] (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\protractor\\built\\browser.js:66:16)\n    at World.<anonymous> (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\Features\\Step_Defination\\stepdefination.js:47:19)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-warning-pop-up-without-logging-in;i-should-change-the-theme-to-dark-and-sign-in",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "I should change the theme to dark and sign in",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have opened web browser and maximized it",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1761000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I should change the theme to light",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 802000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I should sign in",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:41"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 11276000000,
+              "error_message": "TimeoutError: Wait timed out after 10028ms\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2201:17\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: <anonymous wait>\n    at scheduleWait (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2188:20)\n    at ControlFlow.wait (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2517:12)\n    at Driver.wait (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\webdriver.js:934:29)\n    at run (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\protractor\\built\\browser.js:58:33)\n    at ProtractorBrowser.to.<computed> [as wait] (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\protractor\\built\\browser.js:66:16)\n    at World.<anonymous> (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\Features\\Step_Defination\\stepdefination.js:47:19)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-warning-pop-up-without-logging-in;i-should-see-warning-pop-up-after-clicking-on-watch-letter-without-signing-in",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "I should see warning pop up after Clicking on watch letter without signing in",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I should refresh the browser one more time",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:106"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 19000000,
+              "error_message": "NoSuchElementError: No element found using locator: By(xpath, //yt-icon[@id='logo-icon'])\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\protractor\\built\\element.js:814:27\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.<computed> [as click] (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.<computed> [as click] (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\protractor\\built\\element.js:831:22)\n    at Homepage.click_on_logo_button (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\utils\\PageObjects\\homepage.js:28:33)\n    at World.<anonymous> (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\Features\\Step_Defination\\stepdefination.js:107:24)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I should click on avatar image",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:111"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I should sign out",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:116"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I should hover mouse on the first video again",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:121"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I should click on watch late button again",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:126"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see warning pop up",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:131"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "youtube  homepage",
+    "line": 1,
+    "id": "youtube--homepage",
+    "tags": [],
+    "uri": "Features\\YoutubeHomepage.feature",
+    "elements": [
+      {
+        "id": "youtube--homepage;i-should-change-the-theme-to-dark-and-sign-in",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "I should change the theme to dark and sign in",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have opened web browser and maximized it",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1800000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I should change the theme to dark",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 871000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I should sign in",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:41"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 11171000000,
+              "error_message": "TimeoutError: Wait timed out after 10002ms\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2201:17\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: <anonymous wait>\n    at scheduleWait (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2188:20)\n    at ControlFlow.wait (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2517:12)\n    at Driver.wait (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\webdriver.js:934:29)\n    at run (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\protractor\\built\\browser.js:58:33)\n    at ProtractorBrowser.to.<computed> [as wait] (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\protractor\\built\\browser.js:66:16)\n    at World.<anonymous> (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\Features\\Step_Defination\\stepdefination.js:47:19)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "youtube--homepage;i-should-add-video-to-watch-later-section",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "I should add video to watch later section",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I should hover mouse on first video",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:53"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10019000000,
+              "error_message": "TimeoutError: Wait timed out after 10018ms\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2201:17\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: <anonymous wait>\n    at scheduleWait (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2188:20)\n    at ControlFlow.wait (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2517:12)\n    at Driver.wait (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\webdriver.js:934:29)\n    at run (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\protractor\\built\\browser.js:58:33)\n    at ProtractorBrowser.to.<computed> [as wait] (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\protractor\\built\\browser.js:66:16)\n    at World.<anonymous> (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\Features\\Step_Defination\\stepdefination.js:54:18)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I should click on watch later button",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:59"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I should click on watch later section",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:64"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see the video in watch later section",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:69"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should refresh the browser",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:77"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "youtube--homepage;i-should-add-video-to-history-section",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "I should add video to history section",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I should click on second suggested video",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:81"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 576000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=92.0.4515.159)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Windows NT 10.0.19042 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.findElements(By(xpath, //ytd-rich-item-renderer[@class='style-scope ytd-rich-grid-renderer'][2]))\n    at Driver.schedule (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.findElements (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1048:19)\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\protractor\\built\\element.js:159:44\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: <anonymous>\n    at Timeout.pollCondition [as _onTimeout] (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2195:19)\n    at listOnTimeout (internal/timers.js:549:17)\n    at processTimers (internal/timers.js:492:7)\nFrom: Task: <anonymous wait>\n    at scheduleWait (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2188:20)\n    at ControlFlow.wait (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\promise.js:2517:12)\n    at Driver.wait (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\selenium-webdriver\\lib\\webdriver.js:934:29)\n    at run (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\protractor\\built\\browser.js:58:33)\n    at ProtractorBrowser.to.<computed> [as wait] (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\node_modules\\protractor\\built\\browser.js:66:16)\n    at World.<anonymous> (C:\\Users\\Sos_Avagyan\\Desktop\\Homeworks for Mentoring program\\Homework_11\\Cucumber\\Features\\Step_Defination\\stepdefination.js:82:19)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should refresh the browser again",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:88"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I should click on history section",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:93"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see the video in history section",
+            "match": {
+              "location": "Features\\Step_Defination\\stepdefination.js:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
